@@ -11,6 +11,12 @@
 
 }
 
+button {
+
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .debug {
 
     border: 1px solid red;
@@ -42,7 +48,8 @@
 
 .pd-for-bt {
 
-    padding: 5px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
@@ -162,4 +169,7 @@ footer .container ul {
     list-style: none;
 }
 
-footer .container {}
+footer .container {
+
+    border-bottom: 1px solid lightblue;
+}
