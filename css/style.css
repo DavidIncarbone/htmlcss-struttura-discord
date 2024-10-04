@@ -1,5 +1,7 @@
 /* general */
 
+:root {}
+
 * {
 
     margin: 0;
@@ -21,9 +23,21 @@
     display: flex;
 }
 
+#flex-column {
+
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
 .m-right {
 
     margin-right: 15px;
+}
+
+.pd-article {
+
+    padding: 30px;
 }
 
 .pd-for-bt {
@@ -31,15 +45,31 @@
     padding: 5px;
 }
 
+
 .pd-bot {
 
     padding-bottom: 15px;
 
 }
 
+.pd-top {
+
+    padding-top: 50px;
+
+}
+
 .space-between {
 
     justify-content: space-between;
+}
+
+/* bg and text colors */
+
+.bg-lightgrey {
+
+    background-color: lightgrey;
+
+
 }
 
 /* header */
@@ -49,7 +79,7 @@
 nav {
 
     max-width: 800px;
-    margin: 0 auto;
+
 }
 
 /* list */
@@ -78,4 +108,29 @@ ul li a {
 .hero p {
 
     padding-bottom: 15px;
+}
+
+/* main */
+
+
+.container {
+
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+
+#reverse-content {
+
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+}
+
+#margin-top {
+
+    margin-top: 30px;
 }
