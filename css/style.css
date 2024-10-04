@@ -14,17 +14,35 @@
     border: 1px solid red;
 }
 
-/* flex utility */
+/* utility */
 
 .d-flex {
 
     display: flex;
 }
 
+.m-right {
+
+    margin-right: 15px;
+}
+
+.pd-for-bt {
+
+    padding: 5px;
+}
+
+.pd-bot {
+
+    padding-bottom: 15px;
+
+}
+
 .space-between {
 
     justify-content: space-between;
 }
+
+/* header */
 
 /* nav */
 
@@ -46,4 +64,18 @@ ul {
 ul li a {
 
     padding: 15px;
+}
+
+/* hero */
+
+.hero {
+
+    text-align: center;
+    padding: 50px;
+
+}
+
+.hero p {
+
+    padding-bottom: 15px;
 }
