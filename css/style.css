@@ -42,7 +42,7 @@ h1,
 h2,
 h3 {
 
-    font-size: bold;
+    font-weight: bold;
 
 }
 
@@ -50,15 +50,6 @@ h5 {
 
     color: var(--bg-bt-lightblue);
 }
-
-
-
-/* fonts */
-
-
-
-
-
 
 
 /* flex utility */
