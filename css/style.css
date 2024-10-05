@@ -1,5 +1,24 @@
 /* font */
 
+/* @font-face {
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: bold;
+    src: url(https://onedrive.live.com/download?resid=F87CD694B48033C9!114&authkey=!ADeQuq8LqQCrD3I&ithint=file%2cwoff) format('woff');
+  }
+  @font-face {
+    font-family: 'Whitney';
+    font-style: normal;
+    font-weight: normal;
+    src: url(https://onedrive.live.com/download?resid=F87CD694B48033C9!109&authkey=!AOFbepGKctmbyqs&ithint=file%2cwoff) format('woff');
+  }
+  @font-face {
+    font-family: 'Whitney';
+    font-style: italic;
+    font-weight: normal;
+    src: url(https://onedrive.live.com/download?resid=F87CD694B48033C9!110&authkey=!AFIZ94cL6rDomi0&ithint=file%2cwoff) format('woff');
+  }
+ */
 
 
 /* general */
@@ -42,13 +61,7 @@ a {
     color: white;
 }
 
-h1,
-h2,
-h3 {
 
-    font-weight: bold;
-
-}
 
 h5 {
 
@@ -207,7 +220,7 @@ header ul li a {
 .hero {
 
     text-align: center;
-    padding: 50px;
+    padding: 200px 50px 50px;
     max-width: 800px;
     margin: auto;
 
